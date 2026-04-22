@@ -1,0 +1,10 @@
+# Claude Code 本地設定（不 commit）
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 輸出圖片（本地）
+opc-output/
