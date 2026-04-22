@@ -390,7 +390,7 @@ def cmd_image(args):
         _cmd_image_list(args)
     elif image_action == "info":
         _cmd_image_info(args)
-    elif image_action == "import_wf":
+    elif image_action in ("import_wf", "import"):
         _cmd_image_import(args)
     elif image_action == "analyze":
         _cmd_image_analyze(args)
